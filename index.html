@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nahalil's Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <section id="navbar">
+    <div class="nav-container">
+      <nav class="site-navbar">
+        <a href="#home"><p><span>Nahl</span>Bee</p></a>
+        <ul>
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#portofolio">My Portofolio</a></li>
+          <li class="link"><a href="#contact">Contact</a></li>
+          <li class="download"><a href="#">Download My CV</a>
+          </li>
+        </ul>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- Home -->
+  <section id="home">
+    <div class="home-container">
+      <div class="headline">
+        <h3>
+          Hello There, Welcome!
+        </h3>
+        <h1>
+          i'm <span>Nahalil Muchtar</span>
+        </h1>
+        <h2>
+          Full-Stack Web Developer
+        </h2>
+        <p>
+          a passionate and creative Front-End Developer with a keen eye for design and a love for crafting seamless user experiences. My journey in the world of web development began with a curiosity that quickly transformed into a deep-rooted passion.
+        </p>
+        <button>
+          <a href="#portofolio">
+            See My Portofolio
+          </a>
+        </button>
+      </div>
+      <div class="profile-image">
+        <img src="./images/Profile Image.jpeg" alt="My Profile Image">
+      </div>
+    </div>
+  </section>
+  <!-- About -->
+  <section id="about">
+    <div class="about-container">
+      <div class="profile-image2">
+        <img src="./images/Profile Image2.jpeg" alt="My Profile Image">
+      </div>
+      <div class="desc">
+        <h1>
+          About Me!
+        </h1>
+        <p>
+          Hey there! 👋 I'm Nahalil, a passionate front-end developer dedicated to crafting immersive and visually stunning web experiences. With a blend of creativity and technical prowess, I thrive on transforming ideas into pixel-perfect reality.
+        </p>
+        <h2>
+          A Bit of Background
+        </h2>
+        <p>
+          With 2 years in the industry, I've had the opportunity to work on diverse projects ranging from sleek portfolio sites to robust e-commerce platforms. Each project has been a chance to learn, grow, and refine my skills.
+        </p>
+        <h2>
+          Let's Collaborate!
+        </h2>
+        <p>
+          Whether you're a fellow developer, a designer, or a business owner looking to enhance your online presence, I'm always up for exciting projects and collaborations. Let's turn your vision into a digital masterpiece!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- My Portofolio -->
+  <section id="portofolio">
+    <div class="portofolio-container">
+      <h1>
+        See My Works!
+      </h1>
+      <div class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          &#8249;
+        </button>
+
+        <button class="slide-arrow" id="slide-arrow-next">
+          &#8250;
+        </button>
+
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact-container">
+      <h1>
+        Contact Me!
+      </h1>
+      <div class="email-image">
+        <img src="./images/email.svg" alt="Email Image">
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="b3bbce48-e7dd-432f-a9db-96dd89ca92d2">
+        <label>Your Name:</label>
+        <input type="text" name="name" class="contact-input" required>
+        <label>Your Email Adress:</label>
+        <input type="text" name="email" class="contact-input" required>
+        <label>Your Message:</label>
+        <textarea name="message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <h2>Follow Me!</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <img loading="lazy" src="https://media.nngroup.com/static/img/icons/linkedin-icon.svg" alt="Nahalil LinkedIn Account">
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img loading="lazy" src="https://media.nngroup.com/static/img/icons/instagram-icon.svg" alt="Nahalil Instagram Account">
+            <span>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img loading="lazy" src="https://media.nngroup.com/static/img/icons/youtube-icon.svg" alt="Nahalil Youtube Account">
+            <span>Youtube</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img loading="lazy" src="https://media.nngroup.com/static/img/icons/twitter-icon.svg" alt="NN/g Twitter Account">
+            <span>Twitter</span>
+          </a>
+        </li>
+      </ul>
+      <p>© copyright NahlBee 2024</p>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/ad187b75bd.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
