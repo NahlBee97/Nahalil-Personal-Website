@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-mycolor1: #FF5656;
+  --color-mycolor2: #EDF2F6;
+  --color-mycolor3: #6A7EFC;
+  --color-mycolor4: #494953;
+}
