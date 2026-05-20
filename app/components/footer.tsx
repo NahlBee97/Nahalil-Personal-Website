@@ -7,26 +7,22 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: <LinkedIn />,
-    url: "#",
-    hoverColor: "hover:bg-[#0077b5]", // Optional: You can use your theme color (hover:bg-[#FF5656]) or brand colors
+    url: "https://id.linkedin.com/in/nahalil-muchtar-29501218b",
   },
   {
     name: "Instagram",
     icon: <Instagram />,
-    url: "#",
-    hoverColor: "hover:bg-[#E1306C]",
+    url: "https://www.instagram.com/nahlbee97?igsh=MTg1Z2txeWVyZzJoeg%3D%3D&utm_source=qr",
   },
   {
     name: "Youtube",
     icon: <Youtube />,
-    url: "#",
-    hoverColor: "hover:bg-[#FF0000]",
+    url: "https://www.youtube.com/@NahalilMuchtar",
   },
   {
     name: "GitHub",
     icon: <Github />,
-    url: "#",
-    hoverColor: "hover:bg-[#333333]",
+    url: "https://github.com/NahlBee97",
   },
 ];
 
@@ -74,6 +70,7 @@ const Footer = () => {
                 <li key={index}>
                   <a
                     href={link.url}
+                    target="blank"
                     aria-label={link.name}
                     /* Replaced standard hover with your #FF5656 red for a cohesive theme */
                     className={`flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 text-mycolor2 transition-all duration-300 hover:-translate-y-1 hover:bg-mycolor1 hover:border-mycolor1 hover:shadow-lg hover:shadow-mycolor1/30 group`}

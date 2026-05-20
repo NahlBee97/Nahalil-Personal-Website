@@ -43,21 +43,21 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-mycolor4 mb-1">Email</h3>
-                    <a href="mailto:nahalilmuchtar2@gmail.com" className="text-mycolor4/70 hover:text-mycolor1 transition-colors">
+                    <p className="text-mycolor4/70">
                       nahalilmuchtar2@gmail.com
-                    </a>
+                    </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4 p-6 bg-mycolor2/50 rounded-2xl border border-transparent hover:border-mycolor3/20 hover:bg-mycolor2 transition-all duration-300">
-                  <div className="w-12 h-12 bg-mycolor4/10 text-mycolor2 rounded-full flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-mycolor4/10 text-green-500 rounded-full flex items-center justify-center shrink-0">
                     <Phone size={24} />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-mycolor4 mb-1">Phone</h3>
-                    <a href="tel:+6282144949060" className="text-mycolor4/70 hover:text-mycolor1 transition-colors">
+                    <p className="text-mycolor4/70">
                       +62 821 4494 9060
-                    </a>
+                    </p>
                   </div>
                 </div>
 
