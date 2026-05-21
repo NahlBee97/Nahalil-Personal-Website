@@ -5,8 +5,8 @@ export const projectsData = [
     description: "A full-featured e-commerce platform with a modern UI, robust product filtering, shopping cart functionality, and secure checkout integration. Built with performance and user experience in mind.",
     image: "./bekumart.png",
     tags: ["Next.js", "TypeScript", "Node.js", "Tailwind CSS","Redis", "PostgreSQL"],
-    liveUrl: "#",
-    repoUrl: "#"
+    liveUrl: "https://bekumart-frontend.vercel.app",
+    repoUrl: "https://github.com/NahlBee97/bekumart-frontend"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const projectsData = [
     description: "A Cashier application designed to help small business owners manage their daily transactions, track sales, and generate reports. Built with a focus on simplicity and efficiency.",
     image: "./diarykasir.png",
     tags: ["React", "TypeScript", "Node.js", "Tailwind CSS", "PostgreSQL"],
-    liveUrl: "#",
-    repoUrl: "#"
+    liveUrl: "https://diarykasir-client.vercel.app",
+    repoUrl: "https://github.com/NahlBee97/diarykasir-client"
   },
 ];

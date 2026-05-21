@@ -10,6 +10,7 @@ import { useState } from "react";
 import FadeInSection from "./fadeInSection";
 import { projectsData } from "../data/projects";
 import { Github } from "./socialIcons";
+import Link from "next/link";
 
 const Projects = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -84,7 +85,7 @@ const Projects = () => {
                       <img
                         src={project.image}
                         alt={project.title}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover/image:scale-110"
+                        className="w-full h-full object-fill"
                       />
                       <div className="absolute inset-0 bg-mycolor4/20 opacity-0 group-hover/image:opacity-100 transition-opacity duration-300"></div>
                     </div>
@@ -112,20 +113,24 @@ const Projects = () => {
 
                       {/* Action Buttons */}
                       <div className="flex items-center gap-4 mt-auto">
-                        <a
+                        <Link
                           href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="flex items-center justify-center gap-2 px-6 py-3 bg-mycolor1 text-white rounded-full font-medium transition-all hover:bg-mycolor3 hover:shadow-lg hover:shadow-mycolor3/30 hover:-translate-y-1"
                         >
                           <ExternalLink size={18} />
                           Live Demo
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href={project.repoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="flex items-center justify-center gap-2 px-6 py-3 bg-mycolor2 text-mycolor4 rounded-full font-medium transition-all hover:bg-mycolor4 hover:text-white"
                         >
                           <Github />
                           Source Code
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
